@@ -5,7 +5,10 @@ The repository contains two files: mgh007m.info, mgh007m.mat. These files are fr
 I use a 1-minute-long Respiratory Impedance signal from mgh007m.mat file. This is an 8x21600 matrix where the 7th row is the Respiratory Impedance signal.
 I use a sine carrier signal: C*sin(2*pi*f + phi) where f = 100Hz, C = 1mV, phi = 0.
 
-The measurement details can be found in https://archive.physionet.org/physiobank/database/mghdb/
+
+References:
+
+The measurement details can be found on https://archive.physionet.org/physiobank/database/mghdb/
 
 Welch JP, Ford PJ, Teplick RS, Rubsamen RM. The Massachusetts General Hospital-Marquette Foundation Hemodynamic and Electrocardiographic Database -- Comprehensive collection of critical care waveforms. J Clinical Monitoring 7(1):96-97 (1991).
 
