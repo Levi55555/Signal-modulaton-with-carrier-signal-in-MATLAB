@@ -3,7 +3,7 @@ The signal modulation is a basic operation in communications (eg. radio signals)
 This code shows how to implement this signal modulation in MATLAB.
 The repository contains two files: mgh007m.info, mgh007m.mat. These files are from the MGH/MF Waveform Database: https://archive.physionet.org/physiobank/database/mghdb/
 I use a 1-minute-long Respiratory Impedance signal from mgh007m.mat file. This is an 8x21600 matrix where the 7th row is the Respiratory Impedance signal.
-I use a sine carrier signal: C*sin(2*pi*f + phi) where f = 100Hz, C = 1mV, phi = 0.
+I use a sine carrier signal: C.*sin(2*pi*f + phi) where f = 100Hz, C = 1mV, phi = 0.
 
 
 References:
